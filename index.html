@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKTU Result</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Background Image -->
+    <div class="background"></div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="./aktulogo.jpg" alt="aktu logo">
+        </div>
+
+        <!-- Form Section -->
+        <h1>Enter Your Details</h1>
+        <form id="resultForm">
+            <label for="rollNumber">Roll Number:</label>
+            <input type="text" id="rollNumber" placeholder="Enter Roll Number" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" placeholder="dd/mm/yyyy" required>
+
+            <button type="button" onclick="generatePDF()">View Result</button>
+        </form>
+        <br>
+        <div class="remaining">
+            यह डॉ ए पी जे अब्दुल कलाम तकनीकी विश्वविद्यालय लखनऊ की आधिकारिक ईo आरo पीo है।<br>
+            (एoकेoटीoयूo-एसडीसी द्वारा संचालित)
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
